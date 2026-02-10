@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solutions - Business Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #home {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        #services {
+            background-color: #fff;
+        }
+        #services ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        #services li {
+            flex: 1 1 300px;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+        #contact {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        #contact form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #contact button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #contact button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+            #services ul {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Solutions</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Tech Solutions</h2>
+        <p>We provide innovative technology solutions to help your business grow. From web development to IT consulting, we've got you covered.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>
+                <h3>Web Development</h3>
+                <p>Custom websites tailored to your needs.</p>
+            </li>
+            <li>
+                <h3>IT Consulting</h3>
+                <p>Expert advice on technology strategies.</p>
+            </li>
+            <li>
+                <h3>Software Solutions</h3>
+                <p>Develop and integrate software for efficiency.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for more information.</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tech Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+	
+	
